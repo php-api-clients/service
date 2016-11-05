@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "php": "^7.0"
+    "php": "^7.0",
+    "react/promise": "^2.4"
   },
   "require-dev": {
     "api-clients/test-utilities": "dev-master"
