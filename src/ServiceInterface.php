@@ -6,5 +6,5 @@ use React\Promise\CancellablePromiseInterface;
 
 interface ServiceInterface
 {
-    public function handle($input): CancellablePromiseInterface;
+    public function handle(): CancellablePromiseInterface;
 }
